@@ -8,8 +8,20 @@ import java.util.ArrayList;
 
 public class ListTotal
 {
+
+ //Method that totals up the values in a list
+ //Take in Integer ArrayList called NumList as parameter: ArrayList<Integer> numList
  public static int total( List<Integer> ray )
  {
-  return 0;
+    //Create an integer sum, set equal to 0
+    int sum = 0;
+    //Use a for-each loop: integer i as loop control variable
+    for(int i : ray) {
+      //set total equal to total plus i
+      sum += i;
+    }
+    //return total
+    return sum;
  }
+
 }
