@@ -1,7 +1,7 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
-//Date -
+//Name - Rachel Lee
+//Date - 02/03/2021
 
 import java.util.List;
 import java.util.ArrayList;
